@@ -1,0 +1,151 @@
+#cssmenu ul li{
+    list-style: none;
+
+}
+#cssmenu ul li a{
+    text-decoration: none;
+}
+.about-block{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.about-block .block{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    text-align: center;
+
+}
+
+.block-one{
+    width: 45%;
+    height: auto;
+    border: none;
+    /*background-color: pink;*/
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: -70px;
+}
+ h1{
+     width:100%;
+     height: auto;
+    font-size:30px;
+    padding: 40px 0 40px 0;
+     margin: 0;
+     text-align: left;
+}
+.one-first h2{
+    width: 50%;
+    height: auto;
+    color: indianred;
+    padding: 0 0 10px 40px;
+    border-bottom: 1px solid black;
+}
+.one-first p{
+    line-height: 25px;
+    font-size: 18px;
+}
+.one-seecond{
+    width: 100%;
+    height: 50%;
+}
+.one-seecond span{
+    margin: 0 10px;
+}
+.one-seecond ul{
+    width:50%;
+    height: 100%;
+    text-align: left;
+    margin-left: 12%;
+    font-size: 18px;
+}
+.one-seecond ul li{
+    width: 100%;
+    margin: 20px 0;
+
+}
+.one-seecond ul li a{
+    color: gray;
+}
+.block-two{
+    width: 45%;
+    height: 50%;
+    /*background-color: skyblue;*/
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+.block-two ul{
+    width: 100%;
+    height: 100%;
+
+}
+.block-two ul li{
+    width: 70%;
+    margin: 55px 65px;
+    text-align: center;
+}
+.block-two ul li input{
+    width: 100%;
+    border: 1px dashed skyblue;
+}
+.block-two ul li:nth-child(1) input,.block-two ul li:nth-child(2) input
+{
+    height: 50px;
+}
+.block-two ul li:nth-child(3) input{
+    height: 150px;
+}
+.block-two ul li:nth-child(4) input{
+    height: 60px;
+    background-color: skyblue;
+}
+.block-four{
+    width: 100%;
+    height:25%;
+
+    text-align: center;
+}
+#four{
+    width: 100%;
+    height:25%;
+    text-align: center;
+    background-color: #a9a9a978;
+    color: gray;
+}
+#four a{
+    color: gray;
+}
+
+#four ul{
+    width: 100%;
+    height: 33%;
+}
+#four ul li{
+    height: 100%;
+    display: inline-block;
+}
+#four #ul_first{
+    padding: 40px 0 10px 0;
+}
+#four #ul_first li{
+    width: 5%;
+}
+#four #ul_second li{
+    color: gray;
+    padding: 5px 5px;
+}
+#four #ul_third li{
+    padding: 5px 15px;
+}
+.fa-weibo{
+    color: red;
+}
+.fa-weixin{
+    color: green;
+}
+.fa-qq{
+    color: #00b3ee;
+}

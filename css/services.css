@@ -1,0 +1,24 @@
+body{
+    overflow: hidden;
+}
+#cssmenu ul li{
+    list-style: none;
+
+}
+#cssmenu ul li a{
+    text-decoration: none;
+}
+
+.about-block{
+    width: 100%;
+    height:auto;
+
+    margin: 0 auto;
+    text-align: center;
+}
+.about-block .block{
+    width: 100%;
+    height:auto;
+/*background-color: #00b3ee;*/
+    /*position: relative;*/
+}

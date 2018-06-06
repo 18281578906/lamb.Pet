@@ -1,0 +1,282 @@
+.content{
+    height: 100%;
+    width: 100%;
+    background-color:#00eec875;
+    overflow: hidden;
+}
+.block-one{
+    width: 100%;
+    height:25%;
+    /*background: skyblue;*/
+    text-align: center;
+}
+.block-one h1{
+    width:100%;
+    height: 10%;
+    margin: 0;
+    padding:15% 0 40px 0;
+
+}
+.block-one p{
+    width: 100%;
+    height: 10%;
+
+}
+.block-one ul{
+    width: 100%;
+    height:80%;
+    padding-bottom: 100px;
+}
+.block-one ul li{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    margin: 40px 0;
+}
+.block-one ul li img{
+    width: 250px;
+    height: 250px;
+    border-radius: 180px;
+}
+.block-two{
+    width: 100%;
+    height:25%;
+    background-color: #87ebe463;
+    text-align: center;
+}
+.block-two h1{
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 15% 0 40px 0;
+}
+.block-two p{
+    width: 100%;
+    height: 5%;
+}
+.block-two h3{
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 20px 0;
+}
+.block-two ul{
+    width: 100%;
+    height: 80%;
+    padding-bottom: 100px;
+}
+.block-two ul li{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    padding:30px;
+}
+.block-two ul li img{
+    width: 250px;
+    height: 250px;
+}
+.block-two ul li p a{
+    color: gray;
+}
+.block-two ul li p a:hover{
+    color: red;
+}
+.block-three{
+    width: 100%;
+    height:25%;
+    /*background: pink;*/
+    text-align: center;
+}
+
+.block-three h1{
+    width:100%;
+    height: 10%;
+    margin: 0;
+    padding:10% 0 100px 0;
+}
+.block-three p{
+    width: 100%;
+    height: 10%;
+
+}
+.block-three ul{
+    width: 100%;
+    height:80%;
+    padding-bottom: 140px;
+    padding-top: 20px;
+}
+.block-three ul li{
+    width: 20%;
+    display: inline-block;
+    margin: 30px 0;
+}
+.btn{
+    text-shadow: black 3px 2px 3px;
+    width:200px;
+    height:100px;
+}
+.glyphicon{
+    color: white;
+    margin: 10px;
+}
+span{
+    margin: 10px;
+    font-size:23px;
+    font-weight: 400;
+}
+.block-four{
+    width: 100%;
+    height:25%;
+    background-color: pink;
+    text-align: center;
+}
+#four{
+    width: 100%;
+    height:25%;
+    text-align: center;
+    background-color: white;
+    color: gray;
+}
+#four a{
+    color: gray;
+}
+
+#four ul{
+    width: 100%;
+    height: 33%;
+    background-color: white;
+}
+#four ul li{
+    height: 100%;
+    display: inline-block;
+}
+#four #ul_first{
+    padding: 40px 0 10px 0;
+}
+#four #ul_first li{
+    width: 5%;
+}
+#four #ul_second li{
+    color: gray;
+    padding: 5px 5px;
+}
+#four #ul_third li{
+    padding: 5px 15px;
+}
+.chat{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    z-index: 100;
+    top: 40%;
+    left:93%;
+
+}
+.chat-set{
+    width: 20%;
+    height: auto;
+    /*display: none;*/
+}
+.chat-set ul{
+    width: 100%;
+    height: 100%;
+}
+.chat-set ul li{
+    width:150px;
+
+    cursor: pointer;
+}
+.chat-set ul li:nth-child(1) img{
+    width:100px;
+    height:100px;
+    border-radius: 90px;
+}
+/*.chat-set ul li:nth-child(2) img{*/
+    /*width:100px;*/
+    /*height:100px;*/
+    /*border-radius: 90px;*/
+/*}*/
+.chat-set ul li:nth-child(3) img{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+}
+.fa-weibo{
+     color: red;
+ }
+.fa-weixin{
+    color: green;
+}
+.fa-qq{
+    color: #00b3ee;
+}
+.fa-envelope{
+    /*color: darkgrey;*/
+}
+.chat-set ul li .fa-share{
+    color: white;
+    margin-left: 20px;
+}
+.chat-set ul li a span{
+    margin-left:30px;
+}
+
+.left{
+    left: 20px;
+}
+.chat-set ul li:nth-child(2){
+    margin-left: 10px;
+}
+
+/*字体*/
+@font-face {
+    font-family: myfont;
+    src:url("../images/typoupright.ttf");
+}
+#about{
+    font-family: myfont;
+    font-size:100px;
+}
+@font-face {
+    font-family: mao;
+    src: url("../images/mzd.ttf");
+}
+#maozed{
+    font-family: mao;
+    font-size: 80px;
+}
+#code{
+    width: 40%;
+    height:40%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1001;
+    top: 30%;
+    left: 40%;
+    display: none;
+}
+#code img{
+    width: 300px;
+    height:300px;
+
+}
+#mask{
+    display: none;
+    width: 100%;
+    height:10000px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: black;
+}
+#close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: url("../images/qq.jpg");
+}

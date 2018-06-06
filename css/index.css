@@ -1,0 +1,160 @@
+.content{
+    width: 100%;
+    heigh:auto;
+background-color:#00eec875;
+}
+.content-block{
+    width: 100%;
+    height: 100%;
+}
+.block-one{
+    width: 100%;
+    height: auto;
+    /*background-color: pink;*/
+    text-align: center;
+    padding: 100px 0;
+    color: black;
+    font-weight: lighter;
+}
+.block-two{
+    width: 100%;
+    height: auto;
+    background-color: #87ebe463;
+    text-align: center;
+    padding: 100px 0;
+    font-weight: lighter;
+
+
+}
+.block-one ul{
+    width: 100%;
+    margin: 100px auto;
+}
+.block-one ul li{
+    display: inline-block;
+    width: 20%;
+    height: 250px;
+    margin: 30px;
+    border-radius: 180px;
+
+}
+.block-one ul li a img{
+    width: 250px;
+    height: 250px;
+    border-radius: 180px;
+}
+.block-two h3{
+    text-decoration: none;
+}
+.block-two ul{
+    width: 100%;
+    margin: 0 auto;
+}
+.block-two ul li{
+    width:250px;
+    display: inline-block;
+    height: auto;
+    /*border:1px dashed gray;*/
+    margin: 30px;
+}
+.block-two ul li img{
+    width: 100%;
+    height: 200px;
+}
+.block-two ul li p a{
+    text-decoration: none;
+    color:black;
+}
+.block-two ul li p a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.block-three{
+    width: 100%;
+    height: auto;
+    /*background-color: darkgrey;*/
+    padding: 100px 0;
+    text-align: center;
+}
+.btn{
+   text-shadow: black 3px 2px 3px;
+    width:200px;
+    height:100px;
+}
+.glyphicon{
+    color: white;
+    margin: 10px;
+}
+span{
+    margin: 10px;
+    font-size:23px;
+    font-weight: 400;
+}
+.block-three ul{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+.block-three li{
+    display: inline-block;
+    margin: 20px;
+    width: 15%;
+}
+.content-block h1 {
+    margin-top: 50px;
+}
+.block-four{
+    width: 100%;
+    height:200px;
+
+}
+#block_ul{
+    width: 100%;
+    height:100%;
+    padding: 0;
+    text-align: right;
+    margin: 40px 0 0 0;
+    background: white;
+
+}
+#qq,#weixin{
+    width: 10%;
+    height: 100px;
+
+    display: inline-block;
+}
+#qq img,#weixin img{
+    height: 100px;
+    width: 100px;
+
+}
+.chat{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    z-index: 100;
+    top: 65%;
+    left:90%;
+
+}
+.chat-set{
+    width: 20%;
+    height: auto;
+    display: none;
+}
+.chat-set ul{
+    width: 100%;
+    height: 100%;
+}
+.chat-set ul li{
+    background-color: pink;
+  opacity: 0.8;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.glyphicon-chevron-up{
+    font-size:40px;
+}
+.left{
+      left: 80px;
+}

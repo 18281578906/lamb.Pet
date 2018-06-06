@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 50%;
+    height: 50%;
+
+    margin:100px auto;
+    text-align: center;
+}
+h1{
+    margin: 20px 0;
+}
+.zhifubao,.weixin{
+    width:40%;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
